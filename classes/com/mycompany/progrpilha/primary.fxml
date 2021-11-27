@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="272.0" prefWidth="616.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.progrpilha.PrimaryController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Pane prefHeight="244.0" prefWidth="590.0">
+         <children>
+            <TextField fx:id="campoEntrada" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="553.0" />
+            <Button layoutX="14.0" layoutY="46.0" mnemonicParsing="false" onAction="#onEmpilharButtonClick" prefHeight="25.0" prefWidth="553.0" text="EMPILHAR" />
+            <Label fx:id="campoPilha" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="82.0" prefHeight="101.0" prefWidth="553.0" style="-fx-border-color: gray; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: LIGHTGRAY;" textAlignment="CENTER" wrapText="true" />
+            <Button layoutX="14.0" layoutY="193.0" mnemonicParsing="false" onAction="#onDesempilharButtonClick" prefHeight="25.0" prefWidth="553.0" text="DESEMPILHAR" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
